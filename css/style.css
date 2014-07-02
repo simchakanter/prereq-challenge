@@ -1,0 +1,25 @@
+.body, h1 {
+	font-family: sans-serif;
+}
+
+.container {
+	margin-top: 60px;
+	padding-top: 20px;
+	border-top: 1px solid #000;
+}
+
+.container, .buttons, .result {
+	text-align: center;	
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h1, .inputs, .buttons {
+	margin-bottom: 20px;
+}
+
+.result {
+	display: none;
+}
