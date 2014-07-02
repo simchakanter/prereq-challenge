@@ -5,7 +5,8 @@
 .container {
 	margin-top: 60px;
 	padding-top: 20px;
-	border-top: 1px solid #000;
+	border: 1px solid #000;
+	height: 300px;
 }
 
 .container, .buttons, .result {
@@ -22,4 +23,12 @@ h1, .inputs, .buttons {
 
 .result {
 	display: none;
+}
+
+.error-messages {
+	padding: 5px 0 5px 0;
+	background-color: red;
+	display: none;
+	color: white;
+	margin-bottom: 20px;
 }
